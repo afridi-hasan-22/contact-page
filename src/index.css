@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+    .btn-primary {
+        @apply flex items-center py-[10px] px-[10px] bg-black text-white rounded-md gap-2 min-w-[250px] text-lg justify-center
+    }
+    .btn-outline {
+        @apply  py-[10px] px-[10px] text-black rounded-md flex items-center justify-center text-[16px] w-full gap-2 bg-white min-w-[220px] border-2 border-black cursor-pointer
+    }
+}
+
+@tailwind utilities;
